@@ -7,6 +7,7 @@ import StartGame from './StartGame';
 import GameConfig from './Model/GameConfig';
 import Move from './Model/Move';
 import Votes from './Model/Votes';
+import PopularVote from './Model/Vote';
 export default class App extends React.Component<{}, { config: GameConfig, popularVotes: Array<PopularVote>, announcement: string, timeLeft: number }> {
 	chatClient: ChatClient;
 	ticker: number;
